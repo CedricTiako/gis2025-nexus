@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "date": "15-17 juillet 2025 • New York",
+    "title": "Sommet Mondial du Leadership des Jeunes 2025",
+    "description": "Former la prochaine génération de leaders pour conduire un changement durable par l'innovation, la collaboration et l'action audacieuse.",
+    "applyNow": "Postuler",
+    "scholarshipInfo": "Informations sur les bourses"
+  },
+  "nav": {
+    "about": "À propos",
+    "speakers": "Intervenants",
+    "schedule": "Programme",
+    "registration": "Inscription",
+    "resources": "Ressources",
+    "news": "Actualités",
+    "contact": "Contact"
+  }
+}

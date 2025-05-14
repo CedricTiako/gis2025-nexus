@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "date": "July 15-17, 2025 • New York City",
+    "title": "Global Youth Leadership Summit 2025",
+    "description": "Empowering the next generation of leaders to drive sustainable change through innovation, collaboration, and bold action.",
+    "applyNow": "Apply Now",
+    "scholarshipInfo": "Scholarship Information"
+  },
+  "nav": {
+    "about": "About",
+    "speakers": "Speakers",
+    "schedule": "Schedule",
+    "registration": "Registration",
+    "resources": "Resources",
+    "news": "News",
+    "contact": "Contact"
+  }
+}
