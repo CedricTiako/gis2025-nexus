@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Check, ArrowRight } from 'lucide-react';
+import PurchaseFlow from './PurchaseFlow';
 
 const RegistrationCard = ({ 
   title, 
   price, 
   originalPrice, 
   features, 
-  isPopular = false 
+  isPopular = false,
+  onSelect
 }: {
   title: string;
   price: number;
   originalPrice?: number;
   features: string[];
   isPopular?: boolean;
+  onSelect: () => void;
 }) => (
   <div className={`bg-white rounded-xl shadow-lg p-8 border-2 ${
     isPopular ? 'border-purple-500' : 'border-gray-100'
@@ -47,18 +50,23 @@ const RegistrationCard = ({
       ))}
     </ul>
     
-    <button className={`w-full py-3 px-6 rounded-lg font-semibold flex items-center justify-center transition-colors duration-200 ${
-      isPopular 
-        ? 'bg-purple-600 text-white hover:bg-purple-700' 
-        : 'bg-purple-100 text-purple-700 hover:bg-purple-200'
-    }`}>
-      Register Now
+    <button 
+      onClick={onSelect}
+      className={`w-full py-3 px-6 rounded-lg font-semibold flex items-center justify-center transition-colors duration-200 ${
+        isPopular 
+          ? 'bg-purple-600 text-white hover:bg-purple-700' 
+          : 'bg-purple-100 text-purple-700 hover:bg-purple-200'
+      }`}
+    >
+      Select Package
       <ArrowRight className="ml-2 h-5 w-5" />
     </button>
   </div>
 );
 
 const Registration = () => {
+  const [showPurchaseFlow, setShowPurchaseFlow] = useState(false);
+
   const registrationOptions = [
     {
       title: 'FULLY FUNDED',
@@ -120,6 +128,10 @@ const Registration = () => {
     }
   ];
 
+  if (showPurchaseFlow) {
+    return <PurchaseFlow />;
+  }
+
   return (
     <section id="registration" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
@@ -145,6 +157,7 @@ const Registration = () => {
               originalPrice={option.originalPrice}
               features={option.features}
               isPopular={option.isPopular}
+              onSelect={() => setShowPurchaseFlow(true)}
             />
           ))}
         </div>
