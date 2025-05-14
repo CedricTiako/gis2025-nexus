@@ -13,6 +13,33 @@
     "registration": "Registration",
     "resources": "Resources",
     "news": "News",
-    "contact": "Contact"
+    "contact": "Contact",
+    "register": "Register Now"
+  },
+  "about": {
+    "title": "Shaping Tomorrow's Leaders",
+    "subtitle": "About the Summit",
+    "description": {
+      "part1": "The Global Youth Leadership Summit 2025 is a transformative gathering designed for young visionaries aged 16-30.",
+      "part2": "This premier event brings together emerging leaders, innovators, and changemakers to address global challenges through fresh perspectives and bold solutions."
+    },
+    "highlights": {
+      "leadership": {
+        "title": "Leadership Development",
+        "description": "Intensive training and mentorship from global leaders and industry experts."
+      },
+      "network": {
+        "title": "Global Network",
+        "description": "Connect with passionate young leaders from over 100 countries."
+      },
+      "innovation": {
+        "title": "Innovation Hub",
+        "description": "Develop solutions for pressing global challenges through collaborative projects."
+      },
+      "impact": {
+        "title": "Sustainable Impact",
+        "description": "Learn to create lasting change aligned with UN Sustainable Development Goals."
+      }
+    }
   }
 }

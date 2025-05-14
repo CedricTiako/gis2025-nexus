@@ -13,6 +13,33 @@
     "registration": "Inscription",
     "resources": "Ressources",
     "news": "Actualités",
-    "contact": "Contact"
+    "contact": "Contact",
+    "register": "S'inscrire"
+  },
+  "about": {
+    "title": "Façonner les leaders de demain",
+    "subtitle": "À propos du sommet",
+    "description": {
+      "part1": "Le Sommet Mondial du Leadership des Jeunes 2025 est un rassemblement transformateur conçu pour les jeunes visionnaires âgés de 16 à 30 ans.",
+      "part2": "Cet événement phare réunit des leaders émergents, des innovateurs et des acteurs du changement pour relever les défis mondiaux à travers des perspectives nouvelles et des solutions audacieuses."
+    },
+    "highlights": {
+      "leadership": {
+        "title": "Développement du Leadership",
+        "description": "Formation intensive et mentorat par des leaders mondiaux et des experts de l'industrie."
+      },
+      "network": {
+        "title": "Réseau Mondial",
+        "description": "Connectez-vous avec des jeunes leaders passionnés de plus de 100 pays."
+      },
+      "innovation": {
+        "title": "Pôle d'Innovation",
+        "description": "Développez des solutions aux défis mondiaux urgents à travers des projets collaboratifs."
+      },
+      "impact": {
+        "title": "Impact Durable",
+        "description": "Apprenez à créer un changement durable aligné sur les Objectifs de Développement Durable de l'ONU."
+      }
+    }
   }
 }
