@@ -41,5 +41,49 @@
         "description": "Learn to create lasting change aligned with UN Sustainable Development Goals."
       }
     }
+  },
+  "purchase": {
+    "steps": {
+      "tickets": "Tickets",
+      "details": "Details",
+      "payment": "Payment",
+      "confirmation": "Confirmation"
+    },
+    "buttons": {
+      "back": "Back",
+      "continue": "Continue",
+      "confirmPurchase": "Confirm Purchase"
+    },
+    "tickets": {
+      "selectQuantity": "Select quantity",
+      "price": "Price"
+    },
+    "details": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "organization": "Organization (optional)"
+    },
+    "payment": {
+      "cardNumber": "Card Number",
+      "expiryDate": "Expiry Date",
+      "cvv": "CVV",
+      "cardPlaceholder": "1234 5678 9012 3456",
+      "expiryPlaceholder": "MM/YY",
+      "cvvPlaceholder": "123"
+    },
+    "confirmation": {
+      "title": "Purchase Confirmed!",
+      "subtitle": "Thank you for your purchase. You will receive a confirmation email shortly.",
+      "summary": "Order Summary",
+      "total": "Total"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidCard": "Please enter a valid card number",
+      "invalidExpiry": "Please enter a valid expiry date",
+      "invalidCvv": "Please enter a valid CVV"
+    }
   }
 }
